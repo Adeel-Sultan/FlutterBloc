@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider<CounterBloc>(
       create: (context) => CounterBloc(),
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Flutter Bloc Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
